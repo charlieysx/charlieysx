@@ -17,7 +17,7 @@ const createTemplate = (data)=> {
     const list = data.list.map(item=> createCard(item)).join('')
     const template = `\
 ${css}
-<div class="cb-weather-card-container">
+<div class="cb-weather-card-container" style="position: relative;background-color: #212832;border-radius: 15px;padding: 12px;width: 400px;height: 200px;display: flex;justify-content: space-between;line-height: 1.2;">
     <div class='cb-weather-card-box'>
         <div class='card-box-mask'></div>
         <div class='card-box-top'>
