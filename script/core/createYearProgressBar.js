@@ -10,9 +10,12 @@ const count = Math.floor(passedProgressBarIndex)
 const point = count < passedProgressBarIndex ? 1 : 0
 const progressBar = '█'.repeat(count) + '▓'.repeat(point) + '░'.repeat(progressBarCapacity - passedProgressBarIndex - point)
 
+const hour = today.hour()
+const hoursText = hour > 0 ? `and ${hour} hours ` : ''
+
 const result = `\
 ---
-⏳ The year ${today.year()} is over [${progressBar}] ${(progressOfThisYear * 100).toFixed(2)} %
+⏳ ${today.diff(startOfYear, 'day')} days ${hoursText}have passed in ${today.year()} [${progressBar}] ${(progressOfThisYear * 100).toFixed(2)} %
 
 ---`
 
