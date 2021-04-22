@@ -3,7 +3,7 @@
 
 # Hi, I‘m CodeBear.
 
-⏰ Last Updated On 2021-04-23 02:46:41
+⏰ Last Updated On 2021-04-23 02:50:45
 
 ---
 ⏳ 112 days and 2 hours have passed in 2021 [█████████▓░░░░░░░░░░░░░░░░░░░] 30.72 %
@@ -15,7 +15,7 @@
 
 <br />
 <link rel="stylesheet" href="http://at.alicdn.com/t/font_2505550_r08f8es8yv.css">
-<style>
+<style type="text/css">
 .cb-weather-card-container {
     position: relative;
     background-color: #212832;
