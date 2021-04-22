@@ -1,6 +1,6 @@
 const css = `\
 <link rel="stylesheet" href="http://at.alicdn.com/t/font_2505550_r08f8es8yv.css">
-<style>
+<style type="text/css">
 .cb-weather-card-container {
     position: relative;
     background-color: #212832;
