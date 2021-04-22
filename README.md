@@ -3,10 +3,10 @@
 
 # Hi, I‘m CodeBear.
 
-⏰ Last Updated On 2021-04-23 05:07:40
+⏰ Last Updated On 2021-04-23 06:19:17
 
 ---
-⏳ 112 days and 5 hours have passed in 2021 [█████████▓░░░░░░░░░░░░░░░░░░░] 30.74 %
+⏳ 112 days and 6 hours have passed in 2021 [█████████▓░░░░░░░░░░░░░░░░░░░] 30.76 %
 
 ---
 <br />
@@ -33,7 +33,7 @@
         <div class='cb-weather-data-top'>
             <div class='item'>
                 <div class='title'>湿度</div>
-                <div class='num'>95</div>
+                <div class='num'>97</div>
             </div>
             <div class='item'>
                 <div class='title'>风向</div>
@@ -41,7 +41,7 @@
             </div>
             <div class='item'>
                 <div class='title'>风力</div>
-                <div class='num'>2级</div>
+                <div class='num'>1级</div>
             </div>
         </div>
         <div class='cb-weather-data-feature'><div class='feature-card-item'>
