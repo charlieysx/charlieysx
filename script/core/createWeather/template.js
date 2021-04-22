@@ -1,19 +1,4 @@
-![Build README](https://github.com/CB-ysx/CB-ysx/workflows/Build%20README/badge.svg)
-![visitors](https://visitor-badge.glitch.me/badge?page_id=CB-ysx)
-
-# Hi, I‘m CodeBear.
-
-⏰ Last Updated On 2021-04-23 02:45:01
-
----
-⏳ 112 days and 2 hours have passed in 2021 [█████████▓░░░░░░░░░░░░░░░░░░░] 30.72 %
-
----
-<br />
-
-## ☀️ weather（Guangzhou, Guangdong, China）
-
-<br />
+const css = `\
 <link rel="stylesheet" href="http://at.alicdn.com/t/font_2505550_r08f8es8yv.css">
 <style>
 .cb-weather-card-container {
@@ -110,58 +95,54 @@
     color: black;
 }
 </style>
+`
 
+const createCard = (item)=> {
+    return `\
+<div class='feature-card-item'>
+    <div class='iconfont icon-2yejianqing'></div>
+    <div>${item.week}</div>
+    <div>${item.temperature}</div>
+</div>
+`
+}
+
+const createTemplate = (data)=> {
+    const list = data.list.map(item=> createCard(item)).join('')
+    const template = `\
+${css}
 <div class="cb-weather-card-container">
     <div class='cb-weather-card-box'>
         <div class='card-box-mask'></div>
         <div class='card-box-top'>
-            <div class='card-box-week'>星期五</div>
-            <div class='card-box-day'>2021年04月23日</div>
-            <div class='card-box-address'>中国广东广州</div>
+            <div class='card-box-week'>${data.week}</div>
+            <div class='card-box-day'>${data.day}</div>
+            <div class='card-box-address'>${data.address}</div>
         </div>
         <div class='iconfont icon-2yejianqing'></div>
-        <div class='card-boxtemperature'>24°C</div>
-        <div class='card-boxtemperature-text'>晴</div>
+        <div class='card-boxtemperature'>${data.temperature}°C</div>
+        <div class='card-boxtemperature-text'>${data.temperatureText}</div>
     </div>
     <div class='cb-weather-text-box'>
         <div class='cb-weather-data-top'>
             <div class='item'>
                 <div class='title'>湿度</div>
-                <div class='num'>90</div>
+                <div class='num'>${data.humidity}</div>
             </div>
             <div class='item'>
                 <div class='title'>风向</div>
-                <div class='num'>西风</div>
+                <div class='num'>${data.direct}</div>
             </div>
             <div class='item'>
                 <div class='title'>风力</div>
-                <div class='num'>2级</div>
+                <div class='num'>${data.power}</div>
             </div>
         </div>
-        <div class='cb-weather-data-feature'><div class='feature-card-item'>
-    <div class='iconfont icon-2yejianqing'></div>
-    <div>星期五</div>
-    <div>21/32℃</div>
-</div>
-<div class='feature-card-item'>
-    <div class='iconfont icon-2yejianqing'></div>
-    <div>星期六</div>
-    <div>24/31℃</div>
-</div>
-<div class='feature-card-item'>
-    <div class='iconfont icon-2yejianqing'></div>
-    <div>星期日</div>
-    <div>19/28℃</div>
-</div>
-</div>
+        <div class='cb-weather-data-feature'>${list}</div>
     </div>
 </div>
+`
+    return template
+}
 
-
-<br />
-
-## 🐱 My Github Stats And Languages:
-
-<img align="left" width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CB-ysx&layout=compact&text_color=daf7dc&bg_color=151515">
-<img align="right" width="50%" src="https://github-readme-stats.vercel.app/api?username=CB-ysx&theme=tokyonight&show_icons=true&icon_color=6392DF">
-
+exports.result = createTemplate
