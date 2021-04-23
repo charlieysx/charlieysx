@@ -3,10 +3,10 @@
 
 # Hi, I‘m CodeBear.
 
-⏰ Last Updated On 2021-04-23 10:01:48
+⏰ Last Updated On 2021-04-23 11:14:24
 
 ---
-⏳ 112 days and 10 hours have passed in 2021 [█████████▓░░░░░░░░░░░░░░░░░░░] 30.80 %
+⏳ 112 days and 11 hours have passed in 2021 [█████████▓░░░░░░░░░░░░░░░░░░░] 30.81 %
 
 ---
 <br />
@@ -26,18 +26,18 @@
             <div class='card-box-address'>中国广东广州</div>
         </div>
         <div class='iconfont icon-2yejianqing'></div>
-        <div class='card-boxtemperature'>28°C</div>
+        <div class='card-boxtemperature'>30°C</div>
         <div class='card-boxtemperature-text'>多云</div>
     </div>
     <div class='cb-weather-text-box'>
         <div class='cb-weather-data-top'>
             <div class='item'>
                 <div class='title'>湿度</div>
-                <div class='num'>77</div>
+                <div class='num'>66</div>
             </div>
             <div class='item'>
                 <div class='title'>风向</div>
-                <div class='num'>东北风</div>
+                <div class='num'>南风</div>
             </div>
             <div class='item'>
                 <div class='title'>风力</div>
