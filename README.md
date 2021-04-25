@@ -3,10 +3,10 @@
 
 # Hi, I‘m CodeBear.
 
-⏰ Last Updated On 2021-04-25 12:12:53
+⏰ Last Updated On 2021-04-25 13:15:14
 
 ---
-⏳ 114 days and 12 hours have passed in 2021 [█████████▓░░░░░░░░░░░░░░░░░░░] 31.37 %
+⏳ 114 days and 13 hours have passed in 2021 [█████████▓░░░░░░░░░░░░░░░░░░░] 31.38 %
 
 ---
 <br />
@@ -37,7 +37,7 @@
             </div>
             <div class='item'>
                 <div class='title'>风向</div>
-                <div class='num'>南风</div>
+                <div class='num'>西南风</div>
             </div>
             <div class='item'>
                 <div class='title'>风力</div>
