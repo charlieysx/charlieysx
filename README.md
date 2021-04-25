@@ -3,10 +3,10 @@
 
 # Hi, I‘m CodeBear.
 
-⏰ Last Updated On 2021-04-25 23:08:01
+⏰ Last Updated On 2021-04-26 00:13:22
 
 ---
-⏳ 114 days and 23 hours have passed in 2021 [█████████▓░░░░░░░░░░░░░░░░░░░] 31.50 %
+⏳ 115 days have passed in 2021 [█████████▓░░░░░░░░░░░░░░░░░░░] 31.51 %
 
 ---
 <br />
@@ -21,19 +21,19 @@
     <div class='cb-weather-card-box'>
         <div class='card-box-mask'></div>
         <div class='card-box-top'>
-            <div class='card-box-week'>星期日</div>
-            <div class='card-box-day'>2021年04月25日</div>
+            <div class='card-box-week'>星期一</div>
+            <div class='card-box-day'>2021年04月26日</div>
             <div class='card-box-address'>中国广东广州</div>
         </div>
         <div class='iconfont icon-2yejianqing'></div>
         <div class='card-boxtemperature'>22°C</div>
-        <div class='card-boxtemperature-text'>阴</div>
+        <div class='card-boxtemperature-text'>阵雨</div>
     </div>
     <div class='cb-weather-text-box'>
         <div class='cb-weather-data-top'>
             <div class='item'>
                 <div class='title'>湿度</div>
-                <div class='num'>98</div>
+                <div class='num'>97</div>
             </div>
             <div class='item'>
                 <div class='title'>风向</div>
@@ -46,17 +46,17 @@
         </div>
         <div class='cb-weather-data-feature'><div class='feature-card-item'>
     <div class='iconfont icon-2yejianqing'></div>
-    <div>星期日</div>
-    <div>22/27℃</div>
-</div>
-<div class='feature-card-item'>
-    <div class='iconfont icon-2yejianqing'></div>
     <div>星期一</div>
     <div>21/27℃</div>
 </div>
 <div class='feature-card-item'>
     <div class='iconfont icon-2yejianqing'></div>
     <div>星期二</div>
+    <div>20/25℃</div>
+</div>
+<div class='feature-card-item'>
+    <div class='iconfont icon-2yejianqing'></div>
+    <div>星期三</div>
     <div>20/25℃</div>
 </div>
 </div>
