@@ -18,10 +18,11 @@
   "homepage": "https://github.com/CB-ysx/CB-ysx#readme",
   "dependencies": {
     "axios": "^0.21.1",
-    "dayjs": "^1.10.4"
+    "dayjs": "^1.10.4",
+    "graceful-fs": "^4.2.6",
+    "webshot": "^0.18.0"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3",
     "dotenv": "^8.2.0"
   }
 }
