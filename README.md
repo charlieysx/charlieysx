@@ -3,19 +3,12 @@
 
 # Hi, I‘m CodeBear.
 
-⏰ Last Updated On 2021-07-08 14:03:22
+⏰ Last Updated On 2021-07-08 14:17:37
 
 ---
 ⏳ 188 days and 14 hours have passed in 2021 [███████████████▓░░░░░░░░░░░░░] 51.67 %
 
 ---
-<br />
-
-## ☀️ weather（Guangzhou, Guangdong, China）
-
-<br />
-<img src="https://raw.githubusercontent.com/CB-ysx/CB-ysx/master/assets/weather.svg" />
-
 <br />
 
 ## 🐱 My Github Stats And Languages:
