@@ -3,10 +3,17 @@ const dotenv = require("dotenv")
 dotenv.config()
 
 const yearProgressBar = require('./core/createYearProgressBar').result
-const createWeather = require('./core/createWeather').result
+// const createWeather = require('./core/createWeather').result
+
+// ## ☀️ weather（Guangzhou, Guangdong, China）
+
+// <br />
+// ${weather}
+
+// <br />
 
 async function createReadme() {
-    const weather = await createWeather()
+//     const weather = await createWeather()
     const readme = `\
 ![Build README](https://github.com/CB-ysx/CB-ysx/workflows/Build%20README/badge.svg)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=CB-ysx)
@@ -16,13 +23,6 @@ async function createReadme() {
 ⏰ Last Updated On ${dayjs().format('YYYY-MM-DD HH:mm:ss')}
 
 ${yearProgressBar}
-<br />
-
-## ☀️ weather（Guangzhou, Guangdong, China）
-
-<br />
-${weather}
-
 <br />
 
 ## 🐱 My Github Stats And Languages:
